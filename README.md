@@ -2,7 +2,9 @@
 
 - LEE TODO EL DOCUMENTO README antes de empezar a porgramar nada. Intenta entender todas las partes que conforman este ejercicio.
 - ANTES de empezar a programar, contesta a las siguientes preguntas (que encontrarás en este documento)
+
   1. ¿Qué contiene la variable _variables_?
+
   2. ¿Cómo puedo mostrar el valor de la variable anterior por consola en el navegador Web?
   3. ¿De que **tipo** es la variable _variables_?
   4. ¿Cuál es la ÚNICA función que me permiten tocar en este código?
