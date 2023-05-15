@@ -2,12 +2,30 @@
 
 - LEE TODO EL DOCUMENTO README antes de empezar a porgramar nada. Intenta entender todas las partes que conforman este ejercicio.
 - ANTES de empezar a programar, contesta a las siguientes preguntas (que encontrarás en este documento)
+
   1. ¿Qué contiene la variable _variables_?
+
+Propiedades 
+
   2. ¿Cómo puedo mostrar el valor de la variable anterior por consola en el navegador Web?
+
+  console.log(variables)
+
   3. ¿De que **tipo** es la variable _variables_?
+
+Es un objeto
+
   4. ¿Cuál es la ÚNICA función que me permiten tocar en este código?
+
+Render
+
   5. ¿Has visto el vídeo de cómo hacer el ejercicio?
+
+  Si 
+
   6. Si puedes contestar a todas las preguntas anteriores, ve al a última parte del documento: Ejercicio y evlauación
+
+  Ok
 
 # Tarjeta de Perfil Condicional
 
