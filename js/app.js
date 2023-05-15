@@ -34,10 +34,10 @@ function render(variables = {}) {
           <h1>${variables.name} ${variables.lastname}</h1>
           <h2>${variables.role}</h2>
           <h3>${variables.city}, ${variables.country}</h3>
-          <ul class="position-right">
+          <ul class="${variables.socialMediaPosition}">
             <li><a href="https://twitter.com/${variables.twitter}"><i class="fab fa-twitter"></i></a></li>
             <li><a href="https://github.com/${variables.github}"><i class="fab fa-github"></i></a></li>
-            <li><a href="https://linkedin.com/${variables.linkedin}"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://linkedin.com/in/${variables.linkedin}"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="https://instagram.com/${variables.instagram}"><i class="fab fa-instagram"></i></a></li>
           </ul>
         </div>
@@ -52,21 +52,21 @@ window.onload = function () {
     // if includeCover is true the algorithm should
     includeCover: true,
     // this is the url of the image that will used as background for the profile cover
-    background: "https://images.unsplash.com/photo-1511974035430-5de47d3b95da",
+    background: "https://scontent-bcn1-1.xx.fbcdn.net/v/t1.6435-9/84350277_3394601853889065_1487160412246900736_n.jpg?stp=dst-jpg_p960x960&_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_ohc=56ND46XcGMgAX8iN5KD&_nc_ht=scontent-bcn1-1.xx&oh=00_AfDJHUw8tqjaOaxpH7hDbZu2fdufyt_cY32nagT3qWMi4Q&oe=648953DC",
     // this is the url for the profile avatar
-    avatarURL: "https://randomuser.me/api/portraits/women/42.jpg",
+    avatarURL: "https://scontent-bcn1-1.xx.fbcdn.net/v/t39.30808-6/341025177_790625675989822_8378631961885038385_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=Lh_o4qgzlF8AX9Om42b&_nc_ht=scontent-bcn1-1.xx&oh=00_AfC_eiHzSGeRwmiyvtyVv9NBuGQOYXeA2cnvZAFfuuEbHA&oe=6466D92C",
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
-    twitter: null,
+    twitter: "",
     github: "alesanchezr",
-    linkedin: null,
-    instagram: null,
-    name: null,
-    lastname: null,
-    role: null,
-    country: null,
-    city: null,
+    linkedin: "",
+    instagram: "",
+    name: "",
+    lastname: "",
+    role: "",
+    country: "",
+    city: "",
   };
   render(window.variables); //render the card for the first time
 

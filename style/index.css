@@ -2,7 +2,6 @@
   background: white;
   width: 100%;
 }
-
 .filters li {
   display: inline-block;
   max-width: 80px;
@@ -82,7 +81,7 @@
   position: absolute;
   top: 20px;
   padding: 0;
-  background: #2cdfd3;
+  background: #81d854;
 }
 
 .widget ul.position-left {
