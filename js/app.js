@@ -25,6 +25,11 @@ function render(variables = {}) {
   // here we ask the logical questions to make decisions on how to build the html
   // if includeCover==false then we reset the cover code without the <img> tag to make the cover transparent.
   let cover = `<div class="cover"><img src="${variables.background}" /></div>`;
+  for (let variable in variables){
+    if (variables[variable] === null){
+      variables[variable] = ""
+    }
+  }
   if (variables.includeCover == false) cover = "<div class='cover'></div>";
 
   // reset the website body with the new html output
@@ -58,15 +63,15 @@ window.onload = function () {
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
-    twitter: "",
+    twitter: null,
     github: "alesanchezr",
-    linkedin: "",
-    instagram: "",
-    name: "",
-    lastname: "",
-    role: "",
-    country: "",
-    city: "",
+    linkedin: null,
+    instagram: null,
+    name: null,
+    lastname: null,
+    role: null,
+    country: null,
+    city: null,
   };
   render(window.variables); //render the card for the first time
 
